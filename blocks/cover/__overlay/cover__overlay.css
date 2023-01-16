@@ -1,8 +1,9 @@
 .cover__overlay {
     min-height: 740px;
     width: 100%;
-    background-image: url(/images/cover-trains.jpg);
+    background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
+    background-position: center;
     display: block;
     color: #fff;
     text-decoration: none;
