@@ -1,19 +1,24 @@
 .header {
-    min-height: 52px;
-    margin: 28px 48px 0;
+    max-width:1184px ;
+    margin: 28px auto 0;
     display: flex;
     justify-content: space-between;
 }
-
+@media screen and (max-width:1024px) {
+    .header {
+        max-width:928px;
+    }
+}
 @media screen and (max-width:768px) {
     .header {
-        margin: 28px 24px 0;
+        max-width:720px;
+        margin-top: 28px;
     }
 }
 
 @media screen and (max-width:320px) {
     .header {
-        margin: 16px 16px 0;
-        max-height: 42px;
+        max-width:288px;
+        margin-top: 16px;
     }
 }

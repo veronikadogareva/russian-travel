@@ -6,7 +6,11 @@
     max-width: 720px;
     margin: auto;
 }
-
+@media screen and (max-width:675px){
+    .lead__title {
+        font-size: calc(40px + 3vw);;
+    }
+}
 @media screen and (max-width:320px) {
     .lead__title {
         font-size: 40px;

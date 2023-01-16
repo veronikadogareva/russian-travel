@@ -22,7 +22,12 @@
         margin-bottom: 73px;
     }
 }
-
+@media screen and (max-width:600px) {
+    .place {
+        grid-template-columns: 1fr;
+        margin-bottom: 50px;
+    }
+}
 @media screen and (max-width:320px) {
     .place {
         grid-template-columns: 1fr;
