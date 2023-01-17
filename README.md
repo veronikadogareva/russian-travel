@@ -1,10 +1,10 @@
-# Project Title
-Russian travel
-## Project description
-The project provides an opportunity to learn about the ways of traveling in Russia and the places worth visiting.  
-The project describes various amazing and beautiful places in different parts of Russia.
-## Built With
+# Название проекта
+Путешествия по России
+## Описание проекта
+Проект дает возможность узнать о способах путешествий по России и местах, которые стоит посетить.  
+В проекте рассказывается об удивительных и красивых местах в разных уголках России.
+## Используемые технологии
 *HTML5  
 *CSS
-## Link on GitHub
-https://github.com/veronikadogareva/russian-travel
+## Ссылка на  GitHub Pages
+https://veronikadogareva.github.io/russian-travel/

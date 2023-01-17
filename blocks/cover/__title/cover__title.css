@@ -5,25 +5,22 @@
     line-height: 106%;
     text-align: center;
     background: none;
-    margin:auto auto 32px;
+    margin:0 auto 32px;
 }
 
-@media screen and (max-width:1024px) {
-    .cover__title {
-        margin-top: 195px;
-    }
-}
 
 @media screen and (max-width:768px) {
     .cover__title {
-        margin-top: 115px;
         font-size:calc(33px + 5vw);
     }
 }
-
+@media screen and (max-width:360px){
+    .cover__title{
+        font-size:calc(29px + 5vw);
+    }
 @media screen and (max-width:320px) {
     .cover__title {
-        margin: 33px auto 16px;
+        margin: 0 auto 16px;
         font-size: 32px;
         line-height: 109%;
         max-width: 228px;

@@ -5,9 +5,12 @@
     text-align: center;
     background: none;
     max-width: 360px;
-    margin: 0 auto auto;
+    margin: 0 auto;
 }
-
+@media screen and (max-width:360px){
+    .cover__subtitle{
+        font-size:calc(14px + 1vw);
+    }
 @media screen and (max-width:320px) {
     .cover__subtitle {
         font-size: 14px;
