@@ -5,19 +5,21 @@
     line-height: 106%;
     text-align: center;
     background: none;
-    margin:0 auto 32px;
+    margin: 0 auto 32px;
 }
-
 
 @media screen and (max-width:768px) {
     .cover__title {
-        font-size:calc(33px + 5vw);
+        font-size: calc(33px + 5vw);
     }
 }
-@media screen and (max-width:360px){
-    .cover__title{
-        font-size:calc(29px + 5vw);
+
+@media screen and (max-width:360px) {
+    .cover__title {
+        font-size: calc(29px + 5vw);
     }
+}
+
 @media screen and (max-width:320px) {
     .cover__title {
         margin: 0 auto 16px;

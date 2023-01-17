@@ -12,6 +12,7 @@
     position: relative;
     z-index: 1;
 }
+
 .cover__overlay::before {
     content: "";
     background: #2A2C2F;
